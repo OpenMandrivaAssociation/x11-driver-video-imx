@@ -15,7 +15,7 @@ Patch4:	   xserver-1.14-compat.patch
 
 Source0:   http://archlinuxarm.org/builder/src/%{upname}-%{version}.tar.gz
 
-ExclusiveArch: %{arm} aarch64
+ExclusiveArch: %{arm}
 
 BuildRequires: pkgconfig(xorg-macros)
 BuildRequires: pkgconfig(xorg-server)
@@ -34,7 +34,7 @@ Driver for Freescale I.MX devices
 %apply_patches
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
