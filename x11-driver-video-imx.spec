@@ -3,7 +3,7 @@
 Summary:   Xorg X11 I.MX driver
 Name:      x11-driver-video-imx
 Version:   11.09.01
-Release:   3
+Release:   4
 URL:       http://freescale.com
 License:   MIT
 Group:     System/X11
