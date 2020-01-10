@@ -31,7 +31,7 @@ Driver for Freescale I.MX devices
 
 %prep
 %setup -qn %{upname}-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 %configure
