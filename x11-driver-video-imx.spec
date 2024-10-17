@@ -4,7 +4,7 @@ Summary:   Xorg X11 I.MX driver
 Name:      x11-driver-video-imx
 Version:   11.09.01
 Release:   7
-URL:       http://freescale.com
+URL:       https://freescale.com
 License:   MIT
 Group:     System/X11
 Patch0:    Fix-error-unknown-type-name-uint.patch
